@@ -1,0 +1,98 @@
+[
+    {
+        "invoiceNumber": "121212",
+        "type": "Customer PO-1-1",
+        "field": "1111-1",
+        "docName": "mycustomerPO_1"
+    },
+    {
+        "invoiceNumber": "121212",
+        "type": "packSlip-1",
+        "field": "2222",
+        "docName": "myPackSlip_1-1"
+    },
+    {
+        "invoiceNumber": "121212",
+        "type": "stock_1-1",
+        "field": "3333-1",
+        "docName": "mystock_1-1"
+    },
+    {
+        "invoiceNumber": "121212",
+        "type": "stock_2-1",
+        "field": "4444-1",
+        "docName": "mystock_2-1"
+    },
+    {
+        "invoiceNumber": "131313",
+        "type": "Customer PO-2",
+        "field": "1111-2",
+        "docName": "mycustomerPO_1-2"
+    },
+    {
+        "invoiceNumber": "131313",
+        "type": "packSlip-2",
+        "field": "2222-2",
+        "docName": "myPackSlip_1-2"
+    },
+    {
+        "invoiceNumber": "131313",
+        "type": "stock_1-2",
+        "field": "3333-2",
+        "docName": "mystock_1-2"
+    },
+    {
+        "invoiceNumber": "131313",
+        "type": "stock_2-2",
+        "field": "4444-2",
+        "docName": "mystock_2-2"
+    },
+    {
+        "invoiceNumber": "141414",
+        "type": "Customer PO-3",
+        "field": "1111-3",
+        "docName": "mycustomerPO_1-3"
+    },
+    {
+        "invoiceNumber": "141414",
+        "type": "packSlip-3",
+        "field": "2222-3",
+        "docName": "myPackSlip_1-3"
+    },
+    {
+        "invoiceNumber": "141414",
+        "type": "stock_1-3",
+        "field": "3333-3",
+        "docName": "mystock_1-3"
+    },
+    {
+        "invoiceNumber": "141414",
+        "type": "stock_2-3",
+        "field": "4444-3",
+        "docName": "mystock_2-3"
+    },
+    {
+        "invoiceNumber": "123456789123456",
+        "type": "Customer PO-1",
+        "field": "1111-1",
+        "docName": "mycustomerPO_1"
+    },
+    {
+        "invoiceNumber": "123456789123456",
+        "type": "packSlip-1",
+        "field": "2222",
+        "docName": "myPackSlip_1-1"
+    },
+    {
+        "invoiceNumber": "123456789123456",
+        "type": "stock_1-1-123456789123456",
+        "field": "3333-1-123456789123456",
+        "docName": "mystock_1-1-123456789123456"
+    },
+    {
+        "invoiceNumber": "123456789123456",
+        "type": "stock_2-1-123456789123456",
+        "field": "4444-1-123456789123456",
+        "docName": "mystock_2-1-123456789123456"
+    }
+]

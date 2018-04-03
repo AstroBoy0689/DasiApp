@@ -1,0 +1,40 @@
+<!-- 
+    author: Sandro del Valle
+ -->
+<div>
+    Invoice:
+    <input type="text" [(ngModel)]='invoiceNumber' placeholder="Enter invoice Number">
+    <!-- <input #myInput type="text" placeholder="invoice Number"> -->
+    <!-- <button class="button" (click)="searchInvoice(myInput.value)">Log</button> -->
+</div>
+<br />
+<div>
+    <table>
+        <thead>
+            <tr>
+                <th>Type</th>
+                <th>Field(name)</th>
+                <th>Document Name</th>
+                <th>Combine</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let row of filteredTableInfo; index as i">
+                <td>{{row.type}}</td>
+                <td>{{row.field}}</td>
+                <td>{{row.docName}}</td>
+                <td>
+                    <label class="container">
+                        <input type="checkbox" (click)="isChecked(i)">
+                        <span class="checkmark"></span>
+                    </label>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<br />
+<button class="button" (click)="combine()">Combine & mail</button>
+
+
+<!-- <input type="checkbox" (click)="ischecked()"/>{{checked[0]}} -->
