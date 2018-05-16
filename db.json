@@ -2,14 +2,14 @@
   {
     "id":"1",
     "type":"stockline",
-    "name":"name_one"
+    "name":"name_one",
     "ext":"pdf",
     "url":"document/stockline/1"
   },
   {
     "id":"2",
     "type":"partNumber",
-    "name":"name_two"
+    "name":"name_two",
     "ext":"PNG",
     "url":"document/partNumber/2"
   }
